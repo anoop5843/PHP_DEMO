@@ -3,7 +3,7 @@ pipeline{
     environment{
         DEV_SERVER = 'ec2-user@172.31.0.186'
         DEPLOY_SERVER = 'ec2-user@172.31.12.151'
-        IMAGE_NAME='devopstrainer/java-mvn-private-repos:php$BUILD_NUMBER'
+        IMAGE_NAME='anoop5843/java-mvn-private-repos:php$BUILD_NUMBER'
     }
 
     stages{
